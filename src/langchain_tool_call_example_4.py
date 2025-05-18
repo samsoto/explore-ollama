@@ -8,7 +8,7 @@ def get_job_title(user_name: str) -> str:
     """Get the job title for a given person.
 
     Args:
-        user_name (str): [required] The name of the person.
+        user_name (str): The name of the person.
 
     Returns:
         str: The job title.
@@ -17,6 +17,7 @@ def get_job_title(user_name: str) -> str:
         return "Astronaut"
     else:
         return "Unknown"
+
 
 @tool
 def get_user_name() -> str:
