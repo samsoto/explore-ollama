@@ -1,3 +1,5 @@
 requests
 langchain-ollama
 langchain
+langgraph
+langchain_community
